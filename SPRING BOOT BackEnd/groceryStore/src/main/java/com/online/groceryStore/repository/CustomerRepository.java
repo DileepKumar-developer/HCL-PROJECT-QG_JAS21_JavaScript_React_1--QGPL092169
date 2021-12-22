@@ -1,9 +1,0 @@
-package com.online.groceryStore.repository;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.online.groceryStore.model.Customer;
-
-public interface CustomerRepository extends JpaRepository<Customer, Integer>{
-
-}
